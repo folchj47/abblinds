@@ -198,8 +198,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@abblinds.com" className="hover:text-primary transition-colors">
-                        info@abblinds.com
+                      <a href="mailto:info@abblindswindow.com" className="hover:text-primary transition-colors">
+                        info@abblindswindow.com
                       </a>
                     </p>
                   </div>

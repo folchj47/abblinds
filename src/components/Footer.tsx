@@ -22,7 +22,7 @@ export default function Footer() {
                 <span className="font-medium">Phone:</span> (555) 123-4567
               </p>
               <p className="text-gray-300">
-                <span className="font-medium">Email:</span> info@abblinds.com
+                <span className="font-medium">Email:</span> info@abblindswindow.com
               </p>
               <p className="text-gray-300">
                 <span className="font-medium">Address:</span> 123 Design Street, City, State 12345

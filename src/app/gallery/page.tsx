@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -80,11 +81,15 @@ export default function Gallery() {
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40 z-10"></div>
-        <img
-          src="/images/Gallery-hero.jpg"
-          alt="Our Gallery - Window Treatment Installations"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+            <Image
+              src="/images/Gallery-hero.jpg"
+              alt="Our Gallery - Window Treatment Installations"
+              fill
+              className="object-cover"
+              priority
+              quality={85}
+              sizes="100vw"
+            />
         <div className="relative z-20 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">
             Our Gallery
@@ -127,10 +132,14 @@ export default function Gallery() {
                 onClick={() => setSelectedImage(image.src)}
               >
                 <div className="relative h-64">
-                  <img
+                  <Image
                     src={image.src}
                     alt={image.alt}
-                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    quality={75}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, (max-width: 1600px) 33vw, 25vw"
+                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300 flex items-center justify-center">
                     <svg className="w-12 h-12 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -163,11 +172,15 @@ export default function Gallery() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
-            <img
-              src={selectedImage}
-              alt="Gallery image"
-              className="max-w-full max-h-full object-contain rounded-lg"
-            />
+                <Image
+                  src={selectedImage}
+                  alt="Gallery image"
+                  width={1200}
+                  height={800}
+                  className="max-w-full max-h-full object-contain rounded-lg"
+                  quality={90}
+                  priority
+                />
           </div>
         </div>
       )}

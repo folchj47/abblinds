@@ -167,8 +167,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Address</h3>
                     <p className="text-gray-600">
-                      123 Design Street<br />
-                      City, State 12345
+                      2609 E Dale St<br />
+                      Colorado Springs, CO 80909
                     </p>
                   </div>
                 </div>

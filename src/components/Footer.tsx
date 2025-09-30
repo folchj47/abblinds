@@ -25,7 +25,7 @@ export default function Footer() {
                 <span className="font-medium">Email:</span> info@abblindswindow.com
               </p>
               <p className="text-gray-300">
-                <span className="font-medium">Address:</span> 123 Design Street, City, State 12345
+                <span className="font-medium">Address:</span> 2609 E Dale St, Colorado Springs, CO 80909
               </p>
             </div>
           </div>

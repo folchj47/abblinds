@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function PrivacyPolicy() {
   return (
@@ -105,7 +104,7 @@ export default function PrivacyPolicy() {
             </h2>
             <p className="text-gray-700 mb-6">
               We may update this privacy policy from time to time. We will notify you of any changes 
-              by posting the new policy on this page and updating the "Last updated" date.
+              by posting the new policy on this page and updating the &quot;Last updated&quot; date.
             </p>
 
             <h2 className="text-2xl font-heading font-semibold text-gray-900 mb-4">

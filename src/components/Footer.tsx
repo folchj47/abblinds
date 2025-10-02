@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               <p className="text-gray-300">
-                <span className="font-medium">Phone:</span> (555) 123-4567
+                <span className="font-medium">Phone:</span> (657) 293-4248
               </p>
               <p className="text-gray-300">
                 <span className="font-medium">Email:</span> info@abblindswindow.com

@@ -121,7 +121,7 @@ export default function PrivacyPolicy() {
                 <strong>Address:</strong> 2609 E Dale St, Colorado Springs, CO 80909
               </p>
               <p className="text-gray-700">
-                <strong>Phone:</strong> (719) 555-0123
+                <strong>Phone:</strong> (657) 293-4248
               </p>
             </div>
           </div>

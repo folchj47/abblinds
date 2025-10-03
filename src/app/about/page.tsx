@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 export default function About() {
-  const values = [
+  const coreValues = [
     {
       title: "Quality",
-      description: "We use only the finest materials and employ skilled craftsmen to ensure every product meets our high standards of excellence.",
+      description: "We deliver products built to last.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -12,23 +12,54 @@ export default function About() {
       )
     },
     {
-      title: "Elegance",
-      description: "Our designs blend timeless elegance with modern aesthetics to create window treatments that enhance any space.",
+      title: "Customer Care",
+      description: "Every project begins with understanding our client&apos;s needs.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
       )
     },
     {
-      title: "Customization",
-      description: "Every project is unique. We work closely with our clients to create bespoke solutions that perfectly match their vision.",
+      title: "Integrity",
+      description: "Honest, transparent, and reliable in everything we do.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+        </svg>
+      )
+    },
+    {
+      title: "Innovation",
+      description: "Offering modern designs and smart solutions.",
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      )
+    },
+    {
+      title: "Teamwork",
+      description: "Success comes from working together.",
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       )
     }
+  ];
+
+  const services = [
+    "Supply and installation of blinds and curtains",
+    "Window treatment consultations",
+    "Custom fitting and design solutions",
+    "Maintenance and after-sales support"
+  ];
+
+  const currentOpenings = [
+    "Installation Technicians",
+    "Customer Service Representatives",
+    "Administrative Assistants"
   ];
 
   return (
@@ -44,38 +75,38 @@ export default function About() {
         />
         <div className="relative z-20 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">
-            About ABBlinds
+            ABBlinds Company Profile
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto">
-            Crafting beautiful window treatments for over two decades
+            Trusted home improvement brand specializing in high-quality blinds, curtains, and custom window treatments
           </p>
         </div>
       </section>
 
-      {/* Company Introduction */}
+      {/* Company Overview */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-6">
-                Our Story
+                Company Overview
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                We are a design-focused blinds and curtains manufacturer, dedicated to creating modern, 
-                durable, and elegant window coverings. Our mission is to blend functionality with style, 
-                offering solutions that fit every space.
+                ABBlinds is a trusted home improvement brand specializing in high-quality blinds, curtains, and custom window treatments. We help homeowners and businesses transform their spaces with modern, stylish, and functional solutions that enhance comfort, privacy, and design.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2000, ABBlinds has grown from a small family business to a trusted name in 
-                window treatments. We&apos;ve always believed that windows are the eyes of a home, and the 
-                right window treatment can transform not just a room, but the entire atmosphere of a space.
+                Founded with a passion for craftsmanship and customer care, ABBlinds has built a reputation for delivering affordable, reliable, and professional window covering services across Colorado Springs and surrounding areas.
               </p>
-              <p className="text-lg text-gray-600">
-                Today, we serve both residential and commercial clients, bringing our expertise in 
-                design, manufacturing, and installation to every project. From custom motorized blinds 
-                for luxury homes to energy-efficient solutions for office buildings, we create window 
-                treatments that are as functional as they are beautiful.
-              </p>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">Mission Statement</h3>
+                <p className="text-gray-600 mb-4">
+                  To provide every customer with stylish, durable, and affordable window solutions that combine functionality with design while delivering excellent service and lasting value.
+                </p>
+                <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">Vision</h3>
+                <p className="text-gray-600">
+                  To be the leading blinds and window solutions provider in Colorado Springs, known for quality products, exceptional service, and trusted customer relationships.
+                </p>
+              </div>
             </div>
             <div className="relative h-96 lg:h-[500px]">
                 <Image
@@ -89,20 +120,20 @@ export default function About() {
         </div>
       </section>
 
-      {/* Our Values */}
+      {/* Core Values */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              Our Values
+              Core Values
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               The principles that guide everything we do
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {values.map((value, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {coreValues.map((value, index) => (
               <div key={index} className="text-center bg-white p-8 rounded-xl shadow-lg">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 text-white">
                   {value.icon}
@@ -119,94 +150,156 @@ export default function About() {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Services & Company Details */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              Meet Our Team
-            </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Skilled professionals dedicated to bringing your vision to life
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto mb-6">
-                  <Image
-                    src="/images/Sarah-Johnson.avif"
-                    alt="Sarah Johnson - Design Director"
-                    fill
-                    className="object-cover rounded-full"
-                  />
-              </div>
-              <h3 className="text-xl font-heading font-semibold text-gray-900 mb-2">
-                Sarah Johnson
-              </h3>
-              <p className="text-primary font-medium mb-2">Design Director</p>
-              <p className="text-gray-600">
-                With 15 years of experience in interior design, Sarah leads our design team in creating 
-                beautiful, functional window treatments.
-              </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Services */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-8">
+                Services
+              </h2>
+              <ul className="space-y-4">
+                {services.map((service, index) => (
+                  <li key={index} className="flex items-start">
+                    <svg className="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-lg text-gray-600">{service}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto mb-6">
-                <Image
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face"
-                  alt="Michael Chen - Production Manager"
-                  fill
-                  className="object-cover rounded-full"
-                />
+            {/* Company Details */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-8">
+                Company Details
+              </h2>
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                  <div>
+                    <p className="font-semibold text-gray-900">Business Name:</p>
+                    <p className="text-gray-600">ABBlinds</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
+                  </svg>
+                  <div>
+                    <p className="font-semibold text-gray-900">Website:</p>
+                    <p className="text-gray-600">www.abblindswindow.com</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <div>
+                    <p className="font-semibold text-gray-900">Email:</p>
+                    <p className="text-gray-600">info@abblindswindow.com</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <div>
+                    <p className="font-semibold text-gray-900">Phone:</p>
+                    <p className="text-gray-600">(657) 293-4248</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <div>
+                    <p className="font-semibold text-gray-900">Address:</p>
+                    <p className="text-gray-600">2609 E Dale St, Colorado Springs, CO 80909</p>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-xl font-heading font-semibold text-gray-900 mb-2">
-                Michael Chen
-              </h3>
-              <p className="text-primary font-medium mb-2">Production Manager</p>
-              <p className="text-gray-600">
-                Michael ensures every product meets our quality standards with his expertise in 
-                manufacturing and attention to detail.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto mb-6">
-                  <Image
-                    src="/images/Emily-Rodriguez.avif"
-                    alt="Emily Rodriguez - Customer Relations"
-                    fill
-                    className="object-cover rounded-full"
-                  />
-              </div>
-              <h3 className="text-xl font-heading font-semibold text-gray-900 mb-2">
-                Emily Rodriguez
-              </h3>
-              <p className="text-primary font-medium mb-2">Customer Relations</p>
-              <p className="text-gray-600">
-                Emily is your first point of contact and ensures every client receives personalized 
-                service throughout their project.
-              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Current Hiring Needs */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
+              Current Hiring Needs
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              As part of our growth, ABBlinds is hiring for the following positions:
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {currentOpenings.map((position, index) => (
+              <div key={index} className="bg-white p-8 rounded-xl shadow-lg text-center">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v2a2 2 0 01-2 2H10a2 2 0 01-2-2V6" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-heading font-semibold text-gray-900">
+                  {position}
+                </h3>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <a
+              href="/career"
+              className="inline-block bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-dark transition-colors duration-200 shadow-lg"
+            >
+              View All Job Openings
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
       <section className="py-20 bg-primary">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-            Ready to Work With Us?
+            Contact
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Let&apos;s discuss your project and see how we can bring your vision to life.
+            For hiring, partnerships, or general inquiries:
           </p>
-          <a
-            href="/contact"
-            className="inline-block bg-white text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg"
-          >
-            Get Started Today
-          </a>
+          <div className="space-y-4">
+            <div className="flex items-center justify-center">
+              <svg className="w-6 h-6 text-white mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <a 
+                href="mailto:info@abblindswindow.com"
+                className="text-2xl font-semibold text-white hover:text-blue-100 transition-colors duration-200"
+              >
+                info@abblindswindow.com
+              </a>
+            </div>
+            <div className="flex items-center justify-center">
+              <svg className="w-6 h-6 text-white mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <a 
+                href="tel:+16572934248"
+                className="text-2xl font-semibold text-white hover:text-blue-100 transition-colors duration-200"
+              >
+                (657) 293-4248
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>

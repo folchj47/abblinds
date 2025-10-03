@@ -209,7 +209,7 @@ export default function Career() {
               How to Apply
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              If you're interested in joining ABBlinds, please send your CV and cover letter to:
+              If you&apos;re interested in joining ABBlinds, please send your CV and cover letter to:
             </p>
           </div>
 

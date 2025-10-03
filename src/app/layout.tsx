@@ -16,12 +16,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "ABBlinds - Premium Window Treatments & Custom Blinds",
+  title: "ABBlinds Window Solutions - Premium Window Treatments & Custom Blinds",
   description: "Transform your windows with high-quality blinds, curtains, and custom window treatments. Modern, elegant solutions for homes and offices.",
   keywords: "blinds, curtains, window treatments, custom blinds, roller blinds, vertical blinds, venetian blinds, motorized blinds, sheer curtains, blackout curtains",
-  authors: [{ name: "ABBlinds" }],
+  authors: [{ name: "ABBlinds Window Solutions" }],
   openGraph: {
-    title: "ABBlinds - Premium Window Treatments & Custom Blinds",
+    title: "ABBlinds Window Solutions - Premium Window Treatments & Custom Blinds",
     description: "Transform your windows with high-quality blinds, curtains, and custom window treatments.",
     type: "website",
   },

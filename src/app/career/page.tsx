@@ -89,13 +89,13 @@ export default function Career() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40 z-10"></div>
         <Image
           src="/images/modern-living-room-blinds.jpg"
-          alt="Join the ABBlinds team - Career opportunities"
+          alt="Join the ABBlinds Window Solutions team - Career opportunities"
           fill
           className="object-cover"
         />
         <div className="relative z-20 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">
-            Careers at ABBlinds
+            Careers at ABBlinds Window Solutions
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto">
             Join our team and help bring comfort and style to homes and offices
@@ -111,7 +111,7 @@ export default function Career() {
               Why Work With Us
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              At ABBlinds, we provide high-quality blinds, curtains, and window solutions. Our success comes from dedicated people who care about craftsmanship, customer service, and teamwork. We are growing and always looking for motivated individuals to join us.
+              At ABBlinds Window Solutions, we provide high-quality blinds, curtains, and window solutions. Our success comes from dedicated people who care about craftsmanship, customer service, and teamwork. We are growing and always looking for motivated individuals to join us.
             </p>
           </div>
 
@@ -209,7 +209,7 @@ export default function Career() {
               How to Apply
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              If you&apos;re interested in joining ABBlinds, please send your CV and cover letter to:
+              If you&apos;re interested in joining ABBlinds Window Solutions, please send your CV and cover letter to:
             </p>
           </div>
 
@@ -246,7 +246,7 @@ export default function Career() {
               Equal Opportunity Employer
             </h2>
             <p className="text-lg text-gray-600">
-              ABBlinds is an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+              ABBlinds Window Solutions is an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
             </p>
           </div>
         </div>

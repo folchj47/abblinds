@@ -25,7 +25,7 @@ export default function Navigation() {
               <span className="text-white font-bold text-lg">AB</span>
             </div>
             <span className="text-xl font-heading font-semibold text-gray-900">
-              ABBlinds
+              ABBlinds Window Solutions
             </span>
           </Link>
 

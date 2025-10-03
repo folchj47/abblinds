@@ -69,7 +69,7 @@ export default function About() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40 z-10"></div>
         <Image
           src="/images/about-hero.avif"
-          alt="About ABBlinds - Window treatment specialists"
+          alt="About ABBlinds Window Solutions - Window treatment specialists"
           fill
           className="object-cover"
         />
@@ -111,7 +111,7 @@ export default function About() {
             <div className="relative h-96 lg:h-[500px]">
                 <Image
                   src="/images/company-story-image.jpg"
-                  alt="ABBlinds manufacturing facility and team"
+                  alt="ABBlinds Window Solutions manufacturing facility and team"
                   fill
                   className="object-cover rounded-lg shadow-lg"
                 />

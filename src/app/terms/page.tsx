@@ -28,7 +28,7 @@ export default function TermsOfService() {
               Acceptance of Terms
             </h2>
             <p className="text-gray-700 mb-6">
-              By accessing and using ABBlinds.com (&quot;the Website&quot;), you accept and agree to be bound by the 
+              By accessing and using ABBlinds Window Solutions (&quot;the Website&quot;), you accept and agree to be bound by the 
               terms and provision of this agreement. If you do not agree to abide by the above, please 
               do not use this service.
             </p>
@@ -37,7 +37,7 @@ export default function TermsOfService() {
               Use License
             </h2>
             <p className="text-gray-700 mb-6">
-              Permission is granted to temporarily download one copy of the materials on ABBlinds.com 
+              Permission is granted to temporarily download one copy of the materials on ABBlinds Window Solutions 
               for personal, non-commercial transitory viewing only. This is the grant of a license, not a 
               transfer of title, and under this license you may not:
             </p>
@@ -52,7 +52,7 @@ export default function TermsOfService() {
               Products and Services
             </h2>
             <p className="text-gray-700 mb-6">
-              ABBlinds provides custom window treatments, blinds, curtains, and related services. 
+              ABBlinds Window Solutions provides custom window treatments, blinds, curtains, and related services. 
               All products are subject to:
             </p>
             <ul className="list-disc pl-6 text-gray-700 mb-8">
@@ -105,9 +105,9 @@ export default function TermsOfService() {
               Limitation of Liability
             </h2>
             <p className="text-gray-700 mb-6">
-              In no event shall ABBlinds or its suppliers be liable for any damages (including, without 
+              In no event shall ABBlinds Window Solutions or its suppliers be liable for any damages (including, without 
               limitation, damages for loss of data or profit, or due to business interruption) arising 
-              out of the use or inability to use the materials on ABBlinds.com, even if ABBlinds or an 
+              out of the use or inability to use the materials on ABBlinds Window Solutions, even if ABBlinds Window Solutions or an 
               authorized representative has been notified orally or in writing of the possibility of such damage.
             </p>
 
@@ -132,7 +132,7 @@ export default function TermsOfService() {
               Changes to Terms
             </h2>
             <p className="text-gray-700 mb-6">
-              ABBlinds reserves the right to revise these terms of service at any time without notice. 
+              ABBlinds Window Solutions reserves the right to revise these terms of service at any time without notice. 
               By using this website, you are agreeing to be bound by the then current version of these 
               terms of service.
             </p>

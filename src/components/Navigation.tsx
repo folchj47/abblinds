@@ -11,6 +11,7 @@ export default function Navigation() {
     { name: 'About', href: '/about' },
     { name: 'Products', href: '/products' },
     { name: 'Gallery', href: '/gallery' },
+    { name: 'Career', href: '/career' },
     { name: 'Contact', href: '/contact' },
   ];
 

@@ -3,81 +3,68 @@ import Image from "next/image";
 export default function Career() {
   const openPositions = [
     {
-      title: "Window Treatment Specialist",
-      department: "Sales",
-      location: "New York, NY",
-      type: "Full-time",
-      description: "We're looking for an experienced window treatment specialist to join our sales team. You'll work directly with clients to understand their needs and recommend the perfect blinds and curtains for their space.",
-      requirements: [
-        "2+ years experience in home improvement or interior design sales",
-        "Strong customer service skills",
-        "Knowledge of window treatments and home decor",
-        "Valid driver's license for client visits"
-      ]
-    },
-    {
-      title: "Production Supervisor",
-      department: "Manufacturing",
-      location: "Brooklyn, NY",
-      type: "Full-time",
-      description: "Lead our manufacturing team in creating high-quality custom window treatments. This role involves overseeing production processes, quality control, and team management.",
-      requirements: [
-        "5+ years experience in manufacturing or production",
-        "Leadership and team management skills",
-        "Experience with quality control processes",
-        "Knowledge of textile and window treatment manufacturing"
-      ]
-    },
-    {
       title: "Installation Technician",
       department: "Installation",
-      location: "Metro Area",
+      location: "On-site",
       type: "Full-time",
-      description: "Join our installation team to deliver professional window treatment installations. You'll work in various locations, ensuring perfect fit and customer satisfaction.",
+      description: "Responsible for measuring, fitting, and installing blinds and window treatments. You'll work directly with customers to ensure perfect installation and satisfaction.",
       requirements: [
-        "3+ years experience in home installation",
-        "Strong attention to detail",
-        "Excellent customer service skills",
-        "Ability to work independently and as part of a team"
+        "Basic carpentry/handywork skills",
+        "Attention to detail",
+        "Valid driver's license",
+        "Ability to work independently and with customers"
       ]
     },
     {
-      title: "Marketing Coordinator",
-      department: "Marketing",
-      location: "New York, NY",
+      title: "Customer Service Representative",
+      department: "Customer Service",
+      location: "Hybrid",
       type: "Full-time",
-      description: "Help us grow our brand and reach new customers through creative marketing initiatives. You'll work on digital marketing, content creation, and brand development.",
+      description: "Handle customer inquiries, schedule installations, and provide after-sales support. You'll be the first point of contact for our valued customers.",
       requirements: [
-        "Bachelor's degree in Marketing or related field",
-        "2+ years digital marketing experience",
-        "Proficiency in social media and content creation",
-        "Strong written and verbal communication skills"
+        "Good communication skills",
+        "Computer literacy",
+        "Problem-solving attitude",
+        "Customer service experience preferred"
+      ]
+    },
+    {
+      title: "Administrative Assistant",
+      department: "Administration",
+      location: "Office",
+      type: "Full-time",
+      description: "Manage office records, assist with scheduling, and support day-to-day operations. You'll play a key role in keeping our business running smoothly.",
+      requirements: [
+        "Organizational skills",
+        "MS Office proficiency",
+        "Teamwork mindset",
+        "Administrative experience preferred"
       ]
     }
   ];
 
   const benefits = [
     {
-      title: "Competitive Salary",
-      description: "We offer competitive compensation packages that reflect your experience and contribution to our team.",
+      title: "Trusted Brand",
+      description: "Be part of a trusted and expanding home improvement brand with a strong reputation in the community.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       )
     },
     {
-      title: "Health Benefits",
-      description: "Comprehensive health, dental, and vision insurance plans to keep you and your family healthy.",
+      title: "Friendly Environment",
+      description: "Join a friendly team environment with room to grow and advance your career in the home improvement industry.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       )
     },
     {
-      title: "Career Development",
-      description: "We invest in our team with training programs, workshops, and opportunities for advancement within the company.",
+      title: "Hands-on Training",
+      description: "We provide comprehensive hands-on training for new hires to ensure you have the skills and knowledge to succeed.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -85,11 +72,11 @@ export default function Career() {
       )
     },
     {
-      title: "Work-Life Balance",
-      description: "Flexible scheduling and paid time off to help you maintain a healthy balance between work and personal life.",
+      title: "Make an Impact",
+      description: "Opportunity to make an impact with every project, bringing comfort and style to homes and offices.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       )
     }
@@ -108,10 +95,10 @@ export default function Career() {
         />
         <div className="relative z-20 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">
-            Join Our Team
+            Careers at ABBlinds
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto">
-            Build your career with a company that values quality, craftsmanship, and innovation
+            Join our team and help bring comfort and style to homes and offices
           </p>
         </div>
       </section>
@@ -121,10 +108,10 @@ export default function Career() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              Why Work With ABBlinds?
+              Why Work With Us
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We're more than just a window treatment company - we're a team of passionate professionals dedicated to creating beautiful spaces
+              At ABBlinds, we provide high-quality blinds, curtains, and window solutions. Our success comes from dedicated people who care about craftsmanship, customer service, and teamwork. We are growing and always looking for motivated individuals to join us.
             </p>
           </div>
 
@@ -151,10 +138,10 @@ export default function Career() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              Open Positions
+              Current Openings
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Explore current opportunities and find your perfect role
+              Explore our current job opportunities and find your perfect role
             </p>
           </div>
 
@@ -189,7 +176,7 @@ export default function Career() {
                     </div>
                   </div>
                   <a
-                    href={`mailto:careers@abblinds.com?subject=Application for ${position.title}`}
+                    href={`mailto:info@abblindswindow.com?subject=Application for ${position.title}`}
                     className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors duration-200 font-medium whitespace-nowrap"
                   >
                     Apply Now
@@ -214,73 +201,54 @@ export default function Career() {
         </div>
       </section>
 
-      {/* Application Process */}
+      {/* How to Apply */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
               How to Apply
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Simple steps to join our team
+              If you're interested in joining ABBlinds, please send your CV and cover letter to:
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 text-white">
-                <span className="text-2xl font-bold">1</span>
+          <div className="bg-gray-50 p-8 rounded-xl text-center">
+            <div className="mb-6">
+              <div className="flex items-center justify-center mb-4">
+                <svg className="w-8 h-8 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <a 
+                  href="mailto:info@abblindswindow.com?subject=Job Application"
+                  className="text-2xl font-semibold text-primary hover:text-primary-dark transition-colors duration-200"
+                >
+                  info@abblindswindow.com
+                </a>
               </div>
-              <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">
-                Find Your Role
-              </h3>
-              <p className="text-gray-600">
-                Browse our open positions and find the role that matches your skills and interests.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 text-white">
-                <span className="text-2xl font-bold">2</span>
-              </div>
-              <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">
-                Send Your Application
-              </h3>
-              <p className="text-gray-600">
-                Email us your resume and cover letter, specifying the position you're interested in.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 text-white">
-                <span className="text-2xl font-bold">3</span>
-              </div>
-              <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">
-                Interview Process
-              </h3>
-              <p className="text-gray-600">
-                We'll review your application and invite qualified candidates for an interview.
-              </p>
+              <p className="text-gray-600 mb-4">Or call us at:</p>
+              <a 
+                href="tel:+16572934248"
+                className="text-2xl font-semibold text-primary hover:text-primary-dark transition-colors duration-200"
+              >
+                (657) 293-4248
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-primary">
+      {/* Equal Opportunity Employer */}
+      <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-            Don&apos;t See Your Perfect Role?
-          </h2>
-          <p className="text-xl text-blue-100 mb-8">
-            We&apos;re always looking for talented individuals. Send us your resume and let us know how you can contribute to our team.
-          </p>
-          <a
-            href="mailto:careers@abblinds.com?subject=General Application"
-            className="inline-block bg-white text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg"
-          >
-            Send Your Resume
-          </a>
+          <div className="bg-white p-8 rounded-xl shadow-lg">
+            <h2 className="text-2xl font-heading font-bold text-gray-900 mb-4">
+              Equal Opportunity Employer
+            </h2>
+            <p className="text-lg text-gray-600">
+              ABBlinds is an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+            </p>
+          </div>
         </div>
       </section>
     </div>

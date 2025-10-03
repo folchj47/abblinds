@@ -4,7 +4,7 @@ export default function About() {
   const coreValues = [
     {
       title: "Quality",
-      description: "We deliver products built to last.",
+      description: "Delivering products that last.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -13,7 +13,7 @@ export default function About() {
     },
     {
       title: "Customer Care",
-      description: "Every project begins with understanding our client&apos;s needs.",
+      description: "Putting clients first.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -22,7 +22,7 @@ export default function About() {
     },
     {
       title: "Integrity",
-      description: "Honest, transparent, and reliable in everything we do.",
+      description: "Honest, transparent service.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -31,7 +31,7 @@ export default function About() {
     },
     {
       title: "Innovation",
-      description: "Offering modern designs and smart solutions.",
+      description: "Modern designs and smart solutions.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -40,7 +40,7 @@ export default function About() {
     },
     {
       title: "Teamwork",
-      description: "Success comes from working together.",
+      description: "Growing stronger together.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -51,8 +51,8 @@ export default function About() {
 
   const services = [
     "Supply and installation of blinds and curtains",
-    "Window treatment consultations",
-    "Custom fitting and design solutions",
+    "Custom window solutions tailored to your space",
+    "Consultation and measurement services",
     "Maintenance and after-sales support"
   ];
 
@@ -75,10 +75,10 @@ export default function About() {
         />
         <div className="relative z-20 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">
-            ABBlinds Company Profile
+            About ABBlinds Window Solutions
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto">
-            Trusted home improvement brand specializing in high-quality blinds, curtains, and custom window treatments
+            Specializing in high-quality blinds, curtains, and custom window treatments that enhance comfort, privacy, and style
           </p>
         </div>
       </section>
@@ -92,19 +92,19 @@ export default function About() {
                 Company Overview
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                ABBlinds is a trusted home improvement brand specializing in high-quality blinds, curtains, and custom window treatments. We help homeowners and businesses transform their spaces with modern, stylish, and functional solutions that enhance comfort, privacy, and design.
+                At ABBlinds Window Solutions, we specialize in providing high-quality blinds, curtains, and custom window treatments that enhance comfort, privacy, and style.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Founded with a passion for craftsmanship and customer care, ABBlinds has built a reputation for delivering affordable, reliable, and professional window covering services across Colorado Springs and surrounding areas.
+                Founded in Colorado Springs, United States, our mission is to bring modern and affordable window solutions to homes and businesses across the region.
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">Mission Statement</h3>
+                <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">Our Mission</h3>
                 <p className="text-gray-600 mb-4">
-                  To provide every customer with stylish, durable, and affordable window solutions that combine functionality with design while delivering excellent service and lasting value.
+                  To deliver durable, stylish, and affordable window coverings with outstanding customer service and professional installation.
                 </p>
-                <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">Vision</h3>
+                <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">Our Vision</h3>
                 <p className="text-gray-600">
-                  To be the leading blinds and window solutions provider in Colorado Springs, known for quality products, exceptional service, and trusted customer relationships.
+                  To be recognized as the leading provider of blinds and window treatments in Colorado and beyond, trusted for quality, innovation, and care.
                 </p>
               </div>
             </div>
@@ -183,7 +183,7 @@ export default function About() {
                   </svg>
                   <div>
                     <p className="font-semibold text-gray-900">Business Name:</p>
-                    <p className="text-gray-600">ABBlinds</p>
+                    <p className="text-gray-600">ABBlinds Window Solutions</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -219,8 +219,8 @@ export default function About() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-gray-900">Address:</p>
-                    <p className="text-gray-600">2609 E Dale St, Colorado Springs, CO 80909</p>
+                    <p className="font-semibold text-gray-900">Location:</p>
+                    <p className="text-gray-600">Colorado Springs, United States</p>
                   </div>
                 </div>
               </div>
@@ -234,10 +234,10 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              Current Hiring Needs
+              Careers
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              As part of our growth, ABBlinds is hiring for the following positions:
+              We&apos;re expanding! Learn about open positions and how you can join our team.
             </p>
           </div>
 
@@ -271,19 +271,23 @@ export default function About() {
       <section className="py-20 bg-primary">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-            Contact
+            Contact Us
           </h2>
-          <p className="text-xl text-blue-100 mb-8">
-            For hiring, partnerships, or general inquiries:
-          </p>
-          <div className="space-y-4">
+          <div className="space-y-6">
+            <div className="flex items-center justify-center">
+              <svg className="w-6 h-6 text-white mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span className="text-xl font-semibold text-white">Colorado Springs, United States</span>
+            </div>
             <div className="flex items-center justify-center">
               <svg className="w-6 h-6 text-white mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               <a 
                 href="mailto:info@abblindswindow.com"
-                className="text-2xl font-semibold text-white hover:text-blue-100 transition-colors duration-200"
+                className="text-xl font-semibold text-white hover:text-blue-100 transition-colors duration-200"
               >
                 info@abblindswindow.com
               </a>
@@ -294,7 +298,7 @@ export default function About() {
               </svg>
               <a 
                 href="tel:+16572934248"
-                className="text-2xl font-semibold text-white hover:text-blue-100 transition-colors duration-200"
+                className="text-xl font-semibold text-white hover:text-blue-100 transition-colors duration-200"
               >
                 (657) 293-4248
               </a>

@@ -90,7 +90,7 @@ def create_company_profile_pdf():
             pass
     
     # Title
-    content.append(Paragraph("ABBlinds Window Solutions – Company Profile", title_style))
+    content.append(Paragraph("ABBlinds Window Solutions", title_style))
     content.append(Spacer(1, 20))
     
     # Company Overview

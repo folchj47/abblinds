@@ -96,9 +96,10 @@ def create_company_profile_pdf():
     # Company Overview
     content.append(Paragraph("Company Overview", subtitle_style))
     overview_text = """
-    ABBlinds Window Solutions is a trusted home improvement brand specializing in high-quality blinds, 
-    curtains, and custom window treatments. We help homeowners and businesses transform their spaces 
-    with modern, stylish, and functional solutions that enhance comfort, privacy, and design.
+    ABBlinds, also known as ABBlinds Window Solutions, is a trusted home improvement brand specializing in
+    high-quality blinds, curtains, and custom window treatments. We help homeowners and
+    businesses transform their spaces with modern, stylish, and functional solutions that
+    enhance comfort, privacy, and design.
     """
     content.append(Paragraph(overview_text, body_style))
     

@@ -245,9 +245,16 @@ export default function Career() {
             <h2 className="text-2xl font-heading font-bold text-gray-900 mb-4">
               Equal Opportunity Employer
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-gray-600 mb-6">
               ABBlinds Window Solutions is an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
             </p>
+            <a
+              href="/ABBlinds_Company_Profile.pdf"
+              download="ABBlinds_Company_Profile.pdf"
+              className="inline-block bg-primary text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-primary-dark transition-colors duration-200 shadow-lg"
+            >
+              📄 Download Company Profile PDF
+            </a>
           </div>
         </div>
       </section>

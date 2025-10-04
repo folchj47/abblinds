@@ -256,19 +256,12 @@ export default function About() {
             ))}
           </div>
 
-          <div className="text-center mt-12 space-y-4">
+          <div className="text-center mt-12">
             <a
               href="/career"
-              className="inline-block bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-dark transition-colors duration-200 shadow-lg mr-4"
+              className="inline-block bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-dark transition-colors duration-200 shadow-lg"
             >
               View All Job Openings
-            </a>
-            <a
-              href="/ABBlinds_Company_Profile.pdf"
-              download="ABBlinds_Company_Profile.pdf"
-              className="inline-block bg-gray-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-700 transition-colors duration-200 shadow-lg"
-            >
-              📄 Download Company Profile PDF
             </a>
           </div>
         </div>

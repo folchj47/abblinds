@@ -78,6 +78,17 @@ def create_company_profile_pdf():
     # Content list
     content = []
     
+    # Logo (if exists)
+    if os.path.exists("logo.png"):
+        try:
+            logo = Image("logo.png", width=1.5*inch, height=1.5*inch)
+            logo.hAlign = 'CENTER'
+            content.append(logo)
+            content.append(Spacer(1, 10))
+        except:
+            # If logo fails to load, continue without it
+            pass
+    
     # Title
     content.append(Paragraph("ABBlinds Window Solutions – Company Profile", title_style))
     content.append(Spacer(1, 20))

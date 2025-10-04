@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#1e40af"/>
+  
+  <!-- Window Blinds Icon -->
+  <g transform="translate(40, 60)">
+    <!-- Window Frame -->
+    <rect x="0" y="0" width="40" height="60" fill="none" stroke="white" stroke-width="2"/>
+    
+    <!-- Blinds Slats -->
+    <line x1="5" y1="15" x2="35" y2="12" stroke="white" stroke-width="1.5"/>
+    <line x1="5" y1="22" x2="35" y2="19" stroke="white" stroke-width="1.5"/>
+    <line x1="5" y1="29" x2="35" y2="26" stroke="white" stroke-width="1.5"/>
+    <line x1="5" y1="36" x2="35" y2="33" stroke="white" stroke-width="1.5"/>
+    
+    <!-- Bottom Rail -->
+    <rect x="5" y="45" width="30" height="8" fill="white"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="100" y="120" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">ABBBlinds</text>
+</svg>
